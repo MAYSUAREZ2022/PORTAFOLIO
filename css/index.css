@@ -1,0 +1,47 @@
+.content {
+    background-color: #C9C8D4;
+    min-height: 80%;
+    width: 90%;
+    padding: 0% 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#picture {
+    width: 50%;
+    height: 50%;
+    border-radius:500px;
+    object-fit: contain;
+    box-shadow: 1rem -1rem #2E24A0;
+}
+
+
+.info {
+    width: 60%;
+    color: #000;
+}
+
+#info-container { width: 70%; }
+
+#info-container > * {margin: 20px 0;}
+
+#info-container h1 {font-size: 40px;}
+
+#button-container > * {margin: 20px 20px 20px 0;}
+
+#button-container button {
+    padding: 10px; border-radius: 5px; font-weight: bold;
+}
+
+#contact-botton {
+    background-color: #8773EE;
+    color: #fff;
+    border:none;
+}
+
+#portafolio-button {
+    background-color: #2E24A0;
+    color: #fff;
+    border: 1px solid #fff;
+}
